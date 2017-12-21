@@ -77,6 +77,8 @@ section {
   max-width: 960px;
   margin: 0 auto;
   columns: 2;
+  column-gap: 7em;
+  padding: 3em;
 }
 
 #skills {
@@ -110,8 +112,12 @@ section {
   float: right;
 }
 
-#portfolio {
+#skills h1{
+  padding: 3em;
+}
 
+#portfolio h1{
+  padding: 3em;
 }
 
 .portfolio-content {
@@ -130,7 +136,7 @@ section {
 .portfolio-content-item h2 {
   position: absolute;
   top : 90%;
-  left : 65%;
+  left : 50%;
 }
 
 .portfolio-content-item img {
@@ -138,5 +144,13 @@ section {
 }
 
 footer {
+  background-color: #843a3a;
+}
 
+.social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  text-decoration: none;
 }
