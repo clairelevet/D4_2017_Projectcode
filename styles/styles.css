@@ -33,10 +33,6 @@ a:hover {
   color : #ffdddd;
 }
 
-a::after {
-  content: " >";
-
-}
 
 header {
   min-height: 80vh;
@@ -86,6 +82,11 @@ section {
   color : #fff;
 }
 
+#skills h2{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .skills-section-content {
  display: flex;
  justify-content: space-around;
@@ -93,12 +94,14 @@ section {
 
 .skills-content {
   background-color: #843a3a;
+  max-width: 20em;
+  min-width: 5em;
   width : auto;
   margin : 20px;
 }
 
 .skills-content p {
-  padding: 1em;
+  padding: .5em;
 
 }
 
@@ -108,7 +111,7 @@ section {
 
 .skills-content a {
   display: block;
-  padding : 1em;
+  padding : .5em;
   float: right;
 }
 
@@ -135,8 +138,7 @@ section {
 
 .portfolio-content-item h2 {
   position: absolute;
-  top : 90%;
-  left : 50%;
+  text-align: center;
 }
 
 .portfolio-content-item img {
